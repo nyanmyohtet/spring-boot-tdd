@@ -97,4 +97,12 @@
 		</plugins>
 	</build>
 
+	<distributionManagement>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>trialmd7cf0-nyan-libs-snapshot-snapshots</name>
+			<url>https://trialmd7cf0.jfrog.io/artifactory/nyan-libs-snapshot</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 </project>
